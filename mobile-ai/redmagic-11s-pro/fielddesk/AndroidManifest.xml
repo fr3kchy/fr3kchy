@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dev.fr3k.fielddesk" android:versionCode="2" android:versionName="0.2">
+ <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="35"/>
+ <uses-permission android:name="android.permission.INTERNET"/>
+ <queries><intent><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent></queries>
+ <application android:usesCleartextTraffic="true" android:label="FR3K Fielddesk" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false">
+ <activity android:name=".Desk" android:exported="true" android:launchMode="singleTop">
+ <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+ <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.HOME"/><category android:name="android.intent.category.DEFAULT"/></intent-filter>
+ </activity></application></manifest>

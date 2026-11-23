@@ -1,0 +1,66 @@
+{
+  "published": "2026-11-23",
+  "device": "REDMAGIC 11S Pro (NX809J)",
+  "records": [
+    {
+      "id": "geode-35b",
+      "status": "OPERATOR_REPORTED",
+      "model": "Qwen3.6-35B-A3B",
+      "runtime": "Geode",
+      "generation_trace_available": false,
+      "measured_decode_tokens_per_second": null,
+      "hardware_probe_estimate": {
+        "model": "Geode Q4 (Qwen3.6-35B-A3B)",
+        "overlapped_decode_tokens_per_second": 36.87,
+        "serial_decode_tokens_per_second": 23.11,
+        "prefill_tokens_per_second": 55.34
+      },
+      "settings_model_family": "Gemma 4 E4B",
+      "probe_date": "2026-11-22"
+    },
+    {
+      "id": "nightmare-image",
+      "status": "VERIFIED_DEVICE_RUN",
+      "runtime": "Nightmare Mobile 1.6.307 via Forge on Android",
+      "model": "AbsoluteReality",
+      "prompt": "FR3K field robot under neon lights",
+      "steps": 8,
+      "seed": 42,
+      "width": 512,
+      "height": 512,
+      "format": "RGB PNG",
+      "bytes": 430519,
+      "sha256": "523ae7172265b00ecd666ca7e150da22ddc6da4e210fca84bab7459bc7a5e2e2",
+      "elapsed_ms_including_local_retrieval": 4831,
+      "samples": 1
+    },
+    {
+      "id": "forge-video",
+      "status": "VERIFIED_SYNTHETIC_FIXTURE",
+      "codec": "H.264",
+      "seconds": 4,
+      "width": 320,
+      "height": 180,
+      "physical_playback": true,
+      "byte_identical_export": true,
+      "ai_generated_video_verified": false
+    },
+    {
+      "id": "cpu-4b",
+      "status": "MEASURED",
+      "model": "Qwen3.5-4B Q4_K_M",
+      "runtime": "llama-bench 10f173b",
+      "backend": "CPU",
+      "threads": 4,
+      "pp512_tokens_per_second": 36.32,
+      "tg128_tokens_per_second": 12.81
+    },
+    {
+      "id": "fielddesk",
+      "status": "SOURCE_PUBLISHED",
+      "source_version": "0.2",
+      "prior_debug_build_verified": "0.1",
+      "handset_acceptance_for_0_2": "pending"
+    }
+  ]
+}

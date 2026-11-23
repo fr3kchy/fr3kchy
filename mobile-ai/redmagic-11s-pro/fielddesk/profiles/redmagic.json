@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "title": "FR3K / Redmagic",
+  "accent": "#88FFD2",
+  "systemPrompt": "Answer concisely. Separate observations from hypotheses. Ask before suggesting actions that share private data.",
+  "workflows": [
+    {
+      "id": "field-note",
+      "label": "Draft a field note",
+      "prompt": "Turn these observations into a field note. Keep measurements verbatim and list unknowns:\n"
+    },
+    {
+      "id": "shift",
+      "label": "Plan my next session",
+      "prompt": "Using only the status I paste below, list the next three actions and how to verify each:\n"
+    }
+  ]
+}

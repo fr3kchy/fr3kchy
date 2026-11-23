@@ -7,6 +7,12 @@ I build autonomous systems where **models, tools, infrastructure, hardware, safe
 
 My work spans local-first agent infrastructure, resilient communications, distributed control planes, model evaluation and optimisation, RAG, multimodal generation, embodied AI and evidence-gated field systems. I do not count scaffolds as finished systems and I do not report simulated passes as execution evidence.
 
+## Latest work · 23 November 2026
+
+**[REDMAGIC 11S Pro mobile AI lab](mobile-ai/redmagic-11s-pro/)** — Android source, a measured on-device image render, video playback tests and Qwen inference research. I built Fielddesk to put local chat, media generation and development tools on one phone. The case study records what ran, how it was checked and which measurements are still open.
+
+[Read the case study](mobile-ai/redmagic-11s-pro/) · [Inspect the Java](mobile-ai/redmagic-11s-pro/fielddesk/Desk.java) · [Read the results as JSON](mobile-ai/redmagic-11s-pro/results.json)
+
 ## Current engineering surface
 
 - **Sovereign agent infrastructure:** Hermes Agent, OpenClaw and Paperclip systems running as independently supervised services.
@@ -61,4 +67,4 @@ If you want the fastest high-signal inspection:
 4. Inspect the blocked-state discipline in [fr3k-infrastructure](https://github.com/fr3kchy/fr3k-infrastructure).
 5. Reproduce the measured sweep in [qwen36-bench](https://github.com/fr3kchy/qwen36-bench).
 
-**Contact:** `fr3k@mcpintelligence.com.au`
+**Portfolio:** [fr3k.dev](https://fr3k.dev)
